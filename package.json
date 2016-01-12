@@ -1,13 +1,21 @@
 {
   "name": "bulletin-board",
-  "version": "0.0.1",
-  "description": "A bulletin board developed in React.",
+  "version": "1.0.0",
+  "description": "A bulletin board built in React.",
   "main": "Note.js",
   "scripts": {
-    "start": "open http://localhost:3000"
+    "start": "open http://localhost:3000 & httpster -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalartcrew/react_note_app.git"
   },
   "author": "Donte Burney",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalartcrew/react_note_app/issues"
+  },
+  "homepage": "https://github.com/digitalartcrew/react_note_app#readme",
   "dependencies": {
     "httpster": "^1.0.1",
     "react-tools": "^0.13.3"
